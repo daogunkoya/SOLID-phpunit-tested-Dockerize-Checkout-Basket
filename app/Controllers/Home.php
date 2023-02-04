@@ -10,6 +10,8 @@ use App\Services\BasketService;
 class Home
 {
 
+
+    //this initializes the basket
     public function init(int $length, array $products)
     {
 
@@ -28,6 +30,7 @@ class Home
 
 
 
+        //this add add items into the basket: it add all actually
         $service = new BasketService($basketFeature, $products);
 
                 $service->addToBasket('P001');

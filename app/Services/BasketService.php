@@ -26,7 +26,7 @@ class BasketService{
     public function fetchTotal(){
         return $this->feature->fetchTotal($this->productList);
     }
-    public function getBasket(){
+    public function getBasket():array {
         return $this->feature->getBasket();
     }
 
