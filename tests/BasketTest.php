@@ -12,7 +12,7 @@ use App\Services\BasketService;
 final class BasketTest extends TestCase
 {
 
-
+//automated test
     public function testBasketInit()
     {
         $home = new Home;
@@ -28,6 +28,8 @@ final class BasketTest extends TestCase
     }
 
 
+
+    //test add method
     public function testAddMethodForBasket()
     {
         $regularBasket = new RegularBasket;
@@ -39,6 +41,8 @@ final class BasketTest extends TestCase
         
     
     }
+
+    // test total price
     public function testTotalPrice()
     {
         $regularBasket = new RegularBasket;
