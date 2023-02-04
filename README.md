@@ -4,7 +4,7 @@
 - Every user has got length of time and minimum of 12 can be given discount
 - A user basket can be discounted with minimum of length of 12: this is within each - - user row record and is evaluated
 
-This implementation uses interface and dependency injection. Ensuring each behavior is handle only one responsibility
+This implementation uses interface and dependency injection. Ensuring single  behavior is handle independently
 
 #Docker
 Docker orchestrate our infrastructure
