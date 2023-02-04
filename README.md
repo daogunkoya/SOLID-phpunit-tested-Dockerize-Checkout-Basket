@@ -16,4 +16,4 @@ compose and docker file is used here at the root to define image and containeriz
     run docker composer up  ( create a container )
 
     docker compose run  php  ./vendor/bin/phpunit --verbose tests/BasketTest.php
-     the above run test in the container 
+     ( run test in the container )
